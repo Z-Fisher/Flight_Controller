@@ -1,0 +1,155 @@
+GLUAS
+0.0443  			      Mach 
+0        0       0.0      IYsym   IZsym   Zsym
+0.9534   0.6501  1.6535   Sref    Cref    Bref   reference area, chord, span
+0.354331 0       0        Xref    Yref    Zref   moment reference location
+
+
+#--------------------------------------------------
+SURFACE 
+WING 
+!Nchordwise  Cspace  Nspanwise  Sspace
+10          .08615   10        0.08177
+YDUPLICATE 
+0.0
+SCALE
+1 1 1
+TRANSLATE
+0 0 0
+ANGLE
+0
+#--------------------------------------------------
+SECTION
+!Xle    Yle    Zle     Chord   Ainc  Nspanwise  Sspace
+0.1247  0     0.0      0.6599   0    
+NACA
+0006
+#--------------------------------------------------
+SECTION
+0.1493  0.0919  0.0    0.6645   0    
+NACA
+0006
+#--------------------------------------------------
+SECTION
+0.1739  0.1837  0.0    0.7990   0    
+NACA
+0006
+#--------------------------------------------------
+SECTION
+0.1986  0.2756  0.0    0.7662   0   
+NACA
+0006
+#--------------------------------------------------
+SECTION
+0.2232  0.3675  0.0    0.7104   0    
+NACA
+0006
+#--------------------------------------------------
+SECTION
+0.2478  0.4594  0.0    0.6352   0    
+NACA
+0006
+CONTROL
+#name gain Xhinge XYZhvec SgnDup
+aileron  1.0  0.524  0 1 0  -1
+#--------------------------------------------------
+SECTION
+0.2724  0.5512  0.0    0.5467   0    
+NACA
+0006
+CONTROL
+aileron  1.0  0.524  0 1 0  -1
+#--------------------------------------------------
+SECTION
+0.2970  0.6431  0.0    0.4408   0    
+NACA
+0006
+CONTROL
+aileron  1.0  0.524  0 1 0  -1
+#--------------------------------------------------
+SECTION
+0.3216  0.7366  0.0    0.2924   0    
+NACA
+0006
+#--------------------------------------------------
+SECTION
+0.4040  0.8268  0.0    0       0     
+NACA
+0006
+
+
+#--------------------------------------------------
+SURFACE
+Vertical Tail
+!Nchordwise  Cspace   Nspanewise  Sspace
+7            1.0      10          0.02123
+TRANSLATE
+0   0  0
+#--------------------------------------------------
+SECTION
+!Xle    Yle    Zle     Chord   Ainc  Nspanwise  Sspace
+0.7792    0   0.0927  0.0709     0   
+NACA
+0006
+#--------------------------------------------------
+SECTION
+!Xle    Yle    Zle     Chord   Ainc  Nspanwise  Sspace
+0.7792    0   0.1139  0.0709     0   
+NACA
+0006
+#--------------------------------------------------
+SECTION
+!Xle    Yle    Zle     Chord   Ainc  Nspanwise  Sspace
+0.7792    0   0.1351  0.0709     0    
+NACA
+0006
+#--------------------------------------------------
+SECTION
+!Xle    Yle    Zle     Chord   Ainc  Nspanwise  Sspace
+0.7792    0   0.1564  0.0709     0  
+NACA
+0006
+#--------------------------------------------------
+SECTION
+!Xle    Yle    Zle     Chord   Ainc  Nspanwise  Sspace
+0.7792    0   0.1776  0.0709     0    
+NACA
+0006
+#--------------------------------------------------
+SECTION
+!Xle    Yle    Zle     Chord   Ainc  Nspanwise  Sspace
+0.7804    0   0.1988  0.0697     0    
+NACA
+0006
+#--------------------------------------------------
+SECTION
+!Xle    Yle    Zle     Chord   Ainc  Nspanwise  Sspace
+0.7918    0   0.2201  0.0582     0    
+NACA
+0006
+#--------------------------------------------------
+SECTION
+!Xle    Yle    Zle     Chord   Ainc  Nspanwise  Sspace
+0.8032    0   0.2413  0.0468     0    
+NACA
+0006
+#--------------------------------------------------
+SECTION
+!Xle    Yle    Zle     Chord   Ainc  Nspanwise  Sspace
+0.8146    0   0.2625  0.0354     0   
+NACA
+0006
+#--------------------------------------------------
+SECTION
+!Xle    Yle    Zle     Chord   Ainc  Nspanwise  Sspace
+0.8260    0   0.02838  0.024     0    
+NACA
+0006
+#--------------------------------------------------
+SECTION
+!Xle    Yle    Zle     Chord   Ainc  Nspanwise  Sspace
+0.8373    0   0.0305   0.0127     0    
+NACA
+0006
+#--------------------------------------------------
+

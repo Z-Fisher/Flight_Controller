@@ -1,0 +1,43 @@
+
+ ---------------------------------------------
+ Run case  1:  0 deg bank                              
+
+ alpha        ->  CL          =   0.80000    
+ beta         ->  beta        =   0.00000    
+ pb/2V        ->  pb/2V       =   0.00000    
+ qc/2V        ->  qc/2V       =   0.00000    
+ rb/2V        ->  rb/2V       =   0.00000    
+ aileron      ->  Cl roll mom =   0.00000    
+ elevator     ->  Cm pitchmom =   0.00000    
+ rudder       ->  Cn yaw  mom =   0.00000    
+ 
+ alpha     =   3.0         deg                             
+ beta      =   0.00000     deg                             
+ pb/2V     =   0.00000                                     
+ qc/2V     =   0.00000                                     
+ rb/2V     =   0                              
+ CL        =   0.8                                   
+ CDo       =   0.16                                
+ bank      =   0.00000     deg                             
+ elevation =   0.00000     deg                             
+ heading   =   0.00000     deg                             
+ Mach      =   0.04430                                     
+ velocity  =   49.8700     ft/s                            
+ density   =  0.0023769    slug/ft^3                       
+ grav.acc. =   32.1800     ft/s^2                          
+ turn_rad. =   0.00000     ft                              
+ load_fac. =   1.00000                                     
+ X_cg      =   0.354331                                
+ Y_cg      =   0.00000                                     
+ Z_cg      =   0.00000                                    
+ mass      =  0.017343     slug                            
+ Ixx       =  0.0007519    slug-ft^2                       
+ Iyy       =  0.001170     slug-ft^2                       
+ Izz       =   0.00188     slug-ft^2                       
+ Ixy       =   0.0         slug-ft^2                       
+ Iyz       =   0.0         slug-ft^2                       
+ Izx       =   0.0         slug-ft^2                       
+ visc CL_a =   0.00000                                     
+ visc CL_u =   0.00000                                     
+ visc CM_a =   0.00000                                     
+ visc CM_u =   0.00000                                     
