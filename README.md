@@ -13,7 +13,7 @@ This project was done as part of "ME 354: Automatic Control of Aerospace Vehicle
 </p> 
 
 ## Athena Vortex Lattice
-MIT's Athena Vortex Lattice (AVL) was used in approximating the aircraft's stability derivatives using the following files:
+MIT's Athena Vortex Lattice (AVL), an extended vortex-lattice model, was used in approximating the aircraft's stability derivatives using the following files:
 * surface_geometry.avl
 * flight_conditions.run
 * body.mass
